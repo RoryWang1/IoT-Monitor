@@ -1,0 +1,19 @@
+{
+  "pcap_input_dir": "pcap_input",
+  "auto_process_enabled": true,
+  "max_retries": 1,
+  "retry_delay": 10,
+  "default_experiment_prefix": "auto_",
+  "timezone": "UTC",
+  "log_level": "INFO",
+  "processing_timeout": 300,
+  "supported_extensions": [".pcap", ".pcapng", ".cap"],
+  "file_size_check_delay": 2,
+  "monitor_recursive": true,
+  "enable_duplicate_detection": true,
+  "cleanup_processed_files": false,
+  "notification_enabled": false,
+  "auto_delete_after_processing": true,
+  "delete_delay_seconds": 5,
+  "keep_failed_files": true
+} 

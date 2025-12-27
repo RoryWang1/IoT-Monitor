@@ -1,0 +1,1366 @@
+{
+  "table_name": "known_devices",
+  "export_date": "2025-07-20T15:40:14.353367",
+  "total_records": 153,
+  "data": [
+    {
+      "mac_address": "00:24:E4:D6:69:E4",
+      "device_name": "withings_thermometer",
+      "device_type": "health_fitness",
+      "vendor": "Withings",
+      "notes": "Imported from devices.txt (was: 0:24:e4:d6:69:e4)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "00:24:E4:EE:3E:BC",
+      "device_name": "Withings_Body_Pressure_Monitor",
+      "device_type": "health_fitness",
+      "vendor": "Withings",
+      "notes": "Imported from devices.txt (was: 0:24:e4:ee:3e:bc)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "00:24:E4:F1:AE:12",
+      "device_name": "withings_sleep_analyser",
+      "device_type": "health_fitness",
+      "vendor": "Withings",
+      "notes": "Imported from devices.txt (was: 0:24:e4:f1:ae:12)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "00:24:E4:FA:EC:5C",
+      "device_name": "withings_scale",
+      "device_type": "health_fitness",
+      "vendor": "Withings",
+      "notes": "Imported from devices.txt (was: 0:24:e4:fa:ec:5c)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "00:2D:B3:02:0E:70",
+      "device_name": "furbo_dog_camera",
+      "device_type": "smart_camera",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 0:2d:b3:2:e:70)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "00:55:DA:5F:9C:A8",
+      "device_name": "nanoleaf_triangles",
+      "device_type": "smart_lighting",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 0:55:da:5f:9c:a8)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "04:17:B6:55:13:3A",
+      "device_name": "eufy_doorbell",
+      "device_type": "smart_camera",
+      "vendor": "Eufy",
+      "notes": "Imported from devices.txt (was: 4:17:b6:55:13:3a)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "04:17:B6:7F:B0:C2",
+      "device_name": "eufy_chime",
+      "device_type": "security",
+      "vendor": "Eufy",
+      "notes": "Imported from devices.txt (was: 04:17:b6:7f:b0:c2)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "08:E9:F6:2A:2E:A2",
+      "device_name": "coffee_maker_lavazza",
+      "device_type": "kitchen_appliances",
+      "vendor": "Lavazza",
+      "notes": "Imported from devices.txt (was: 8:e9:f6:2a:2e:a2)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "08:FB:EA:15:7D:EF",
+      "device_name": "simplicam",
+      "device_type": "smart_camera",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 8:fb:ea:15:7d:ef)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "08:FB:EA:2E:2C:82",
+      "device_name": "simplisafe_doorbell",
+      "device_type": "smart_camera",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 8:fb:ea:2e:2c:82)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "0C:8B:95:A0:E2:CC",
+      "device_name": "alexa_swan_kettle",
+      "device_type": "kitchen_appliances",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 0c:8b:95:a0:e2:cc)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "14:C9:CF:4A:6D:A9",
+      "device_name": "blurams_security_camera",
+      "device_type": "smart_camera",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 14:c9:cf:4a:6d:a9)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "1C:61:B4:CE:4B:33",
+      "device_name": "tapo_plug110_7",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 1c:61:b4:ce:4b:33)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "28:7E:80:96:8D:91",
+      "device_name": "roku_tcl_tv",
+      "device_type": "smart_tv",
+      "vendor": "Roku Inc",
+      "notes": "Imported from devices.txt (was: 28:7e:80:96:8d:91)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:2C:7B",
+      "device_name": "tapo_plug110_11",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:2c:7b)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:2C:7D",
+      "device_name": "tapo_plug110_12",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:2c:7d)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:2C:F7",
+      "device_name": "tapo_plug110_22",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:2c:f7)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:30:39",
+      "device_name": "tapo_plug110_10",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:30:39)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:32:6B",
+      "device_name": "tapo_plug110_13",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:32:6b)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:35:92",
+      "device_name": "tapo_plug110_21",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:35:92)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:3A:27",
+      "device_name": "tapo_plug110_23",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:3a:27)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:3C:AD",
+      "device_name": "tapo_plug110_20",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:3c:ad)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:3C:CE",
+      "device_name": "tapo_plug110_32",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:3c:ce)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:44:40",
+      "device_name": "tapo_plug110_33",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:44:40)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:44:B2",
+      "device_name": "tapo_plug110_35",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:44:b2)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:44:B6",
+      "device_name": "tapo_plug110_34",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:44:b6)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:53:E0",
+      "device_name": "tapo_plug110_24",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:53:e0)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:82:AE",
+      "device_name": "tapo_plug110_27",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:82:ae)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:84:6E",
+      "device_name": "tapo_plug110_25",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:84:6e)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:4D:87:E2",
+      "device_name": "tapo_plug110_26",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:4d:87:e2)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "30:DE:4B:D0:8F:AB",
+      "device_name": "tapo_plug110_19",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 30:de:4b:d0:8f:ab)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "36:F2:AE:68:CD:A9",
+      "device_name": "iphone_SE_virtual_mac2",
+      "device_type": "smartphone",
+      "vendor": "Apple Inc",
+      "notes": "Imported from devices.txt (was: 36:f2:ae:68:cd:a9)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "38:42:0B:68:76:30",
+      "device_name": "sonos_speaker",
+      "device_type": "smart_speaker",
+      "vendor": "Sonos Inc",
+      "notes": "Imported from devices.txt (was: 38:42:b:68:76:30)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "38:86:F7:79:1D:15",
+      "device_name": "nest_cam",
+      "device_type": "smart_camera",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 38:86:f7:79:1d:15)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "3A:F1:40:33:F3:85",
+      "device_name": "phone_googlepixel3A_2_random",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 3a:f1:40:33:f3:85)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "3C:28:6D:20:A0:A3",
+      "device_name": "phone_google_pixel3a_8",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 3c:28:6d:20:a0:a3)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "3C:61:05:FD:32:EE",
+      "device_name": "eufy_robovac",
+      "device_type": "cleaning",
+      "vendor": "Eufy",
+      "notes": "Imported from devices.txt (was: 3c:61:5:fd:32:ee)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "44:42:01:4F:0F:8A",
+      "device_name": "blink_mini_camera",
+      "device_type": "smart_camera",
+      "vendor": "Blink Home",
+      "notes": "Imported from devices.txt (was: 44:42:1:4f:f:8a)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "48:55:19:0A:1B:4C",
+      "device_name": "switchbot_hub_mini_2",
+      "device_type": "security",
+      "vendor": "SwitchBot",
+      "notes": "Imported from devices.txt (was: 48:55:19:a:1b:4c)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "48:7E:48:A7:F7:9F",
+      "device_name": "nokia_tv",
+      "device_type": "smart_tv",
+      "vendor": "Nokia",
+      "notes": "Imported from devices.txt (was: 48:7e:48:a7:f7:9f)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "48:A2:E6:C9:80:F1",
+      "device_name": "Honeywell_T6_Thermostat",
+      "device_type": "smart_sensor",
+      "vendor": "Honeywell",
+      "notes": "Imported from devices.txt (was: 48:a2:e6:c9:80:f1)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "48:B0:2D:E9:9A:B9",
+      "device_name": "nvidia_shield",
+      "device_type": "smart_tv",
+      "vendor": "Nvidia",
+      "notes": "Imported from devices.txt (was: 48:b0:2d:e9:9a:b9)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "48:E1:E9:AB:EC:1B",
+      "device_name": "meross_garage_door",
+      "device_type": "security",
+      "vendor": "Meross",
+      "notes": "Imported from devices.txt (was: 48:e1:e9:ab:ec:1b)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "48:E1:E9:C3:D2:4F",
+      "device_name": "Meross_Smartplug_2",
+      "device_type": "smart_plug",
+      "vendor": "Meross",
+      "notes": "Imported from devices.txt (was: 48:e1:e9:c3:d2:4f)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "48:E1:E9:C3:D8:6A",
+      "device_name": "Meross_Smartplug_1",
+      "device_type": "smart_plug",
+      "vendor": "Meross",
+      "notes": "Imported from devices.txt (was: 48:e1:e9:c3:d8:6a)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "48:E7:DA:CD:DE:A1",
+      "device_name": "petsafe_feeder",
+      "device_type": "smart_sensor",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 48:e7:da:cd:de:a1)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "50:14:79:FF:0E:6D",
+      "device_name": "iROBOT_roomba",
+      "device_type": "cleaning",
+      "vendor": "iRobot Corporation",
+      "notes": "Imported from devices.txt (was: 50:14:79:ff:e:6d)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "54:EF:44:3C:72:E8",
+      "device_name": "aqara_hubM2",
+      "device_type": "smart_sensor",
+      "vendor": "Aqara",
+      "notes": "Imported from devices.txt (was: 54:ef:44:3c:72:e8)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "58:CB:52:2F:11:0C",
+      "device_name": "phone_google_pixel3a_7c74",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 58:cb:52:2f:11:0c)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "58:CB:52:3C:16:F1",
+      "device_name": "phone_googlepixel3A_3",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 58:cb:52:3c:16:f1)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "58:D3:49:49:77:31",
+      "device_name": "homepod",
+      "device_type": "smart_speaker",
+      "vendor": "Apple Inc",
+      "notes": "Imported from devices.txt (was: 58:d3:49:49:77:31)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "58:EF:68:99:7D:ED",
+      "device_name": "belkin_plug",
+      "device_type": "smart_plug",
+      "vendor": "Belkin",
+      "notes": "Imported from devices.txt (was: 58:ef:68:99:7d:ed)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "5C:47:5E:26:A4:11",
+      "device_name": "ring_indoor_cam",
+      "device_type": "smart_camera",
+      "vendor": "Ring LLC",
+      "notes": "Imported from devices.txt (was: 5c:47:5e:26:a4:11)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "5C:47:5E:60:23:01",
+      "device_name": "ring_doorbell",
+      "device_type": "smart_camera",
+      "vendor": "Ring LLC",
+      "notes": "Imported from devices.txt (was: 5c:47:5e:60:23:01)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "5C:75:AF:67:DE:32",
+      "device_name": "fitbit_versa2_watch",
+      "device_type": "health_fitness",
+      "vendor": "Fitbit Inc",
+      "notes": "Imported from devices.txt (was: 5c:75:af:67:de:32)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "5C:D6:1F:E9:A9:C4",
+      "device_name": "Qardiobase_scale",
+      "device_type": "health_fitness",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 5c:d6:1f:e9:a9:c4)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "68:4E:05:9D:44:B8",
+      "device_name": "ecovacs_vacuum",
+      "device_type": "cleaning",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 68:4e:5:9d:44:b8)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "6C:0C:9A:4F:2B:92",
+      "device_name": "blink_doorbell",
+      "device_type": "smart_camera",
+      "vendor": "Blink Home",
+      "notes": "Imported from devices.txt (was: 6c:c:9a:4f:2b:92)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "70:3A:2D:38:1F:FA",
+      "device_name": "geree_doorbell",
+      "device_type": "smart_camera",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 70:3a:2d:38:1f:fa)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "70:EE:50:94:45:98",
+      "device_name": "netatmo_doorbell",
+      "device_type": "smart_camera",
+      "vendor": "Netatmo",
+      "notes": "Imported from devices.txt (was: 70:ee:50:94:45:98)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "70:EE:50:96:F6:38",
+      "device_name": "netatmo_weather_station",
+      "device_type": "smart_sensor",
+      "vendor": "Netatmo",
+      "notes": "Imported from devices.txt (was: 70:ee:50:96:f6:38)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "7C:49:EB:93:19:E3",
+      "device_name": "mi_control_hub",
+      "device_type": "smart_sensor",
+      "vendor": "Xiaomi Corporation",
+      "notes": "Imported from devices.txt (was: 7c:49:eb:93:19:e3)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "7C:C2:94:0B:DA:4C",
+      "device_name": "xiaomi_blender",
+      "device_type": "kitchen_appliances",
+      "vendor": "Xiaomi Corporation",
+      "notes": "Imported from devices.txt (was: 7c:c2:94:b:da:4c)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "7C:D9:5C:AE:E4:91",
+      "device_name": "phone_googlepixel3A_6",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: x7c:d9:5c:ae:e4:91)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "84:F3:EB:C1:2F:32",
+      "device_name": "remote_control_2",
+      "device_type": "remote_control",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 84:f3:eb:c1:2f:32)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "86:F8:9C:A8:E3:2F",
+      "device_name": "phone_google_pixel3a_5_random",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 86:f8:9c:a8:e3:2f)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "88:28:7D:43:80:C0",
+      "device_name": "boifun_baby",
+      "device_type": "smart_camera",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 88:28:7d:43:80:c0)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "88:54:1F:23:10:5F",
+      "device_name": "phone_google_pixel3A_7",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 88:54:1f:23:10:5f)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "88:54:1F:29:36:3C",
+      "device_name": "phone_google_pixel3a_5",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 88:54:1f:29:36:3c)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "88:54:1F:33:EF:4F",
+      "device_name": "phone_googlepixel3A_2",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 88:54:1f:33:ef:4f)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "8E:2C:38:4B:D8:59",
+      "device_name": "phone_googlepixel3A_2_randommac",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 8e:2c:38:4b:d8:59)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "90:48:6C:5E:E7:15",
+      "device_name": "ring_chime_pro",
+      "device_type": "smart_camera",
+      "vendor": "Ring LLC",
+      "notes": "Imported from devices.txt (was: 90:48:6c:5e:e7:15)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "90:98:77:7B:6C:13",
+      "device_name": "toshiba_tv",
+      "device_type": "smart_tv",
+      "vendor": "Toshiba",
+      "notes": "Imported from devices.txt (was: 90:98:77:7b:6c:13)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "90:F1:57:A5:69:0F",
+      "device_name": "garmin_scale",
+      "device_type": "health_fitness",
+      "vendor": "Garmin Ltd",
+      "notes": "Imported from devices.txt (was: 90:f1:57:a5:69:f)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "90:F8:2E:87:C1:2E",
+      "device_name": "echodot5",
+      "device_type": "smart_speaker",
+      "vendor": "Amazon Technologies",
+      "notes": "Imported from devices.txt (was: 90:f8:2e:87:c1:2e)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "98:25:4A:E2:3D:E0",
+      "device_name": "Tapo_Smartplug_1",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 98:25:4a:e2:3d:e0)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "98:54:1B:FE:2B:1C",
+      "device_name": "dns_test-Win-10_pc",
+      "device_type": "computer",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: 98:54:1b:fe:2b:1c)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "9C:76:13:95:EC:8E",
+      "device_name": "ring_spotlight_camera",
+      "device_type": "smart_camera",
+      "vendor": "Ring LLC",
+      "notes": "Imported from devices.txt (was: 9c:76:13:95:ec:8e)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "9C:9C:1F:91:E1:B6",
+      "device_name": "cosori_air_fryer",
+      "device_type": "kitchen_appliances",
+      "vendor": "Cosori",
+      "notes": "Imported from devices.txt (was: 9c:9c:1f:91:e1:b6)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "9C:A2:F4:6E:D8:40",
+      "device_name": "tapo_plug110_39",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 9c:a2:f4:6e:d8:40)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "9C:A2:F4:6E:DE:25",
+      "device_name": "tapo_plug110_38",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 9c:a2:f4:6e:de:25)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "9C:A2:F4:6E:FB:19",
+      "device_name": "tapo_plug110_1",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 9c:a2:f4:6e:fb:19)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "9C:A2:F4:6E:FB:AF",
+      "device_name": "tapo_plug110_3",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: 9c:a2:f4:6e:fb:af)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "9E:33:8E:2E:78:DF",
+      "device_name": "iphone_SE_virtual_mac1",
+      "device_type": "smartphone",
+      "vendor": "Apple Inc",
+      "notes": "Imported from devices.txt (was: 9e:33:8e:2e:78:df)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "9E:EC:7A:41:DA:A7",
+      "device_name": "phone_googlepixel3A_6_random",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: 9e:ec:7a:41:da:a7)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "A0:92:08:86:E2:43",
+      "device_name": "OKP_smart_vacuum",
+      "device_type": "cleaning",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: a0:92:8:86:e2:43)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "A4:11:62:E0:CA:22",
+      "device_name": "arlo_doorbell",
+      "device_type": "smart_camera",
+      "vendor": "Amazon Technologies",
+      "notes": "Imported from devices.txt (was: a4:11:62:e0:ca:22)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "A4:11:62:E5:2C:53",
+      "device_name": "arlo_chime",
+      "device_type": "smart_camera",
+      "vendor": "Amazon Technologies",
+      "notes": "Imported from devices.txt (was: a4:11:62:e5:2c:53)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "A4:11:62:F4:08:30",
+      "device_name": "Arlo_Base_Station",
+      "device_type": "smart_camera",
+      "vendor": "Amazon Technologies",
+      "notes": "Imported from devices.txt (was: a4:11:62:f4:08:30)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "A4:97:5C:A4:6B:C2",
+      "device_name": "vtech_baby_camera",
+      "device_type": "smart_camera",
+      "vendor": "VTech",
+      "notes": "Imported from devices.txt (was: a4:97:5c:a4:6b:c2)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "A4:97:5C:A4:6B:C4",
+      "device_name": "vtech_baby_monitor",
+      "device_type": "smart_camera",
+      "vendor": "VTech",
+      "notes": "Imported from devices.txt (was: a4:97:5c:a4:6b:c4)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "A4:CF:12:AB:E9:FE",
+      "device_name": "remote_control_1",
+      "device_type": "remote_control",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: a4:cf:12:ab:e9:fe)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "A6:D3:AB:66:B7:98",
+      "device_name": "Samsung_Galaxy_Watch5",
+      "device_type": "smartphone",
+      "vendor": "Samsung Electronics",
+      "notes": "Imported from devices.txt (was: a6:d3:ab:66:b7:98)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "A8:51:AB:AB:A5:03",
+      "device_name": "apple_tv",
+      "device_type": "smart_tv",
+      "vendor": "Apple Inc",
+      "notes": "Imported from devices.txt (was: a8:51:ab:ab:a5:3)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:34:E1:AC",
+      "device_name": "tapo_plug110_18",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:34:e1:ac)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:40:F5:21",
+      "device_name": "tapo_plug110_31",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:40:f5:21)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:93:66",
+      "device_name": "tapo_plug110_8",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:93:66)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:95:A0",
+      "device_name": "tapo_plug110_2",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:95:a0)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:95:F2",
+      "device_name": "tapo_plug110_29",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:95:f2)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:95:FC",
+      "device_name": "tapo_plug110_4",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:95:fc)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:96:5A",
+      "device_name": "tapo_plug110_14",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:96:5a)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:9A:35",
+      "device_name": "tapo_plug110_17",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:9a:35)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:9A:56",
+      "device_name": "tapo_plug110_15",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:9a:56)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:9B:90",
+      "device_name": "tapo_plug110_28",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:9b:90)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:9B:DE",
+      "device_name": "tapo_plug110_6",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:9b:de)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:9C:26",
+      "device_name": "tapo_plug110_9",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:9c:26)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:9E:82",
+      "device_name": "tapo_plug110_36",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:9e:82)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:9F:5B",
+      "device_name": "tapo_plug110_37",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:9f:5b)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:46:A3:E9",
+      "device_name": "tapo_plug110_5",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:46:a3:e9)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:4C:D7:C7",
+      "device_name": "tapo_plug110_16",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:4c:d7:c7)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:15:A2:71:F3:5F",
+      "device_name": "tapo_plug110_30",
+      "device_type": "smart_plug",
+      "vendor": "TP-Link Technologies",
+      "notes": "Imported from devices.txt (was: ac:15:a2:71:f3:5f)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "AC:BF:71:6B:E8:5B",
+      "device_name": "bose_speaker",
+      "device_type": "smart_speaker",
+      "vendor": "Bose Corporation",
+      "notes": "Imported from devices.txt (was: ac:bf:71:6b:e8:5b)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "B0:2A:43:FC:CE:7F",
+      "device_name": "phone_google_pixel3a_4",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: b0:2a:43:fc:ce:7f)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "B0:99:D7:2D:54:20",
+      "device_name": "samsung_TV",
+      "device_type": "smart_tv",
+      "vendor": "Samsung Electronics",
+      "notes": "Imported from devices.txt (was: b0:99:d7:2d:54:20)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "B4:B7:42:8F:94:40",
+      "device_name": "fire_tv_stick_1",
+      "device_type": "smart_tv",
+      "vendor": "Amazon Technologies",
+      "notes": "Imported from devices.txt (was: b4:b7:42:8f:94:40)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "B4:E4:54:1C:E9:DA",
+      "device_name": "fire_tv_stick_2",
+      "device_type": "smart_tv",
+      "vendor": "Amazon Technologies",
+      "notes": "Imported from devices.txt (was: b4:e4:54:1c:e9:da)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "B8:16:5F:EF:FB:58",
+      "device_name": "LG_tv",
+      "device_type": "smart_tv",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: b8:16:5f:ef:fb:58)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "BC:D7:D4:58:CE:FB",
+      "device_name": "roku_tv_stick",
+      "device_type": "smart_tv",
+      "vendor": "Roku Inc",
+      "notes": "Imported from devices.txt (was: bc:d7:d4:58:ce:fb)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "BC:DF:58:5F:BD:CA",
+      "device_name": "chromecast",
+      "device_type": "smart_tv",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: bc:df:58:5f:bd:ca)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "BC:FF:4D:84:66:33",
+      "device_name": "switchbot_hub_mini_1",
+      "device_type": "security",
+      "vendor": "SwitchBot",
+      "notes": "Imported from devices.txt (was: bc:ff:4d:84:66:33)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "C4:3C:B0:62:C6:41",
+      "device_name": "reolink_doorbell",
+      "device_type": "smart_camera",
+      "vendor": "Reolink",
+      "notes": "Imported from devices.txt (was: c4:3c:b0:62:c6:41)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "C4:DD:57:4A:4A:9C",
+      "device_name": "purifier_levoit",
+      "device_type": "iot_device",
+      "vendor": "Levoit",
+      "notes": "Imported from devices.txt (was: c4:dd:57:4a:4a:9c)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "CC:08:FA:B1:51:23",
+      "device_name": "dns_test-Apple-MAC_pc",
+      "device_type": "computer",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: cc:08:fa:b1:51:23)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "CC:8C:BF:CB:E1:DF",
+      "device_name": "lepro_light",
+      "device_type": "smart_lighting",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: cc:8c:bf:cb:e1:df)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "CC:8D:A2:A2:49:18",
+      "device_name": "Sengled_Smartplug_1",
+      "device_type": "smart_plug",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: cc:8d:a2:a2:49:18)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "CC:F7:35:49:F4:05",
+      "device_name": "echodot4",
+      "device_type": "smart_speaker",
+      "vendor": "Amazon Technologies",
+      "notes": "Imported from devices.txt (was: cc:f7:35:49:f4:5)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D0:3F:27:57:B6:C2",
+      "device_name": "Wyze_camera",
+      "device_type": "smart_camera",
+      "vendor": "Wyze Labs",
+      "notes": "Imported from devices.txt (was: d0:3f:27:57:b6:c2)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D0:3F:27:82:15:5B",
+      "device_name": "wyze_cam_pan_v2",
+      "device_type": "smart_camera",
+      "vendor": "Wyze Labs",
+      "notes": "Imported from devices.txt (was: d0:3f:27:82:15:5b)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D0:73:D5:5B:C8:23",
+      "device_name": "lifx_mini",
+      "device_type": "smart_lighting",
+      "vendor": "LIFX",
+      "notes": "Imported from devices.txt (was: d0:73:d5:5b:c8:23)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D2:43:7F:D2:57:AE",
+      "device_name": "google_pixel_watch",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: d2:43:7f:d2:57:ae)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D4:AD:FC:60:43:9A",
+      "device_name": "govee_strip_light",
+      "device_type": "smart_lighting",
+      "vendor": "Govee",
+      "notes": "Imported from devices.txt (was: d4:ad:fc:60:43:9a)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D8:3A:DD:15:42:41",
+      "device_name": "matter-controller-pi",
+      "device_type": "computer",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: d8:3a:dd:15:42:41)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D8:3A:DD:15:42:B4",
+      "device_name": "Home_Assistant",
+      "device_type": "iot_device",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: d8:3a:dd:15:42:b4)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D8:3A:DD:15:42:FB",
+      "device_name": "matter-light-pi",
+      "device_type": "smart_lighting",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: d8:3a:dd:15:42:fb)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D8:A0:11:49:EF:50",
+      "device_name": "wiz_smart_bulb",
+      "device_type": "smart_lighting",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: d8:a0:11:49:ef:50)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "D8:EB:46:70:8D:4A",
+      "device_name": "google_nest_doorbell",
+      "device_type": "smart_camera",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: d8:eb:46:70:8d:4a)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "DA:AB:0C:F2:9D:57",
+      "device_name": "google_pixel_watch_oldmac",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: da:ab:c:f2:9d:57)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "DC:97:58:AB:A3:63",
+      "device_name": "xiaomi_tv_box",
+      "device_type": "smart_tv",
+      "vendor": "Xiaomi Corporation",
+      "notes": "Imported from devices.txt (was: dc:97:58:ab:a3:63)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "DC:E5:5B:5E:1B:F1",
+      "device_name": "google_nest_hub",
+      "device_type": "smart_speaker",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: dc:e5:5b:5e:1b:f1)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "E4:5E:1B:DE:58:F0",
+      "device_name": "Google_Nest_Wifi_Router",
+      "device_type": "network_infrastructure",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: e4:5e:1b:de:58:f0)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "EC:4D:3E:15:8F:BF",
+      "device_name": "yeelight_bulb_3",
+      "device_type": "smart_lighting",
+      "vendor": "Philips",
+      "notes": "Imported from devices.txt (was: ec:4d:3e:15:8f:bf)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "EC:4D:3E:16:9B:E9",
+      "device_name": "yeelight_bulb",
+      "device_type": "smart_lighting",
+      "vendor": "Philips",
+      "notes": "Imported from devices.txt (was: ec:4d:3e:16:9b:e9)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "EC:4D:3E:36:E1:BB",
+      "device_name": "yeelight_bulb_2",
+      "device_type": "smart_lighting",
+      "vendor": "Philips",
+      "notes": "Imported from devices.txt (was: ec:4d:3e:36:e1:bb)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "F4:03:2A:72:CB:F0",
+      "device_name": "echoflex",
+      "device_type": "smart_speaker",
+      "vendor": "Amazon Technologies",
+      "notes": "Imported from devices.txt (was: f4:3:2a:72:cb:f0)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "F4:CF:A2:4A:BD:46",
+      "device_name": "sensibo_sky_sensor",
+      "device_type": "smart_sensor",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: f4:cf:a2:4a:bd:46)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "F4:F3:09:BF:DE:A7",
+      "device_name": "phone_google_pixel3a_p8bw",
+      "device_type": "smartphone",
+      "vendor": "Google LLC",
+      "notes": "Imported from devices.txt (was: f4:f3:09:bf:de:a7)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "F8:9E:94:AB:5B:2B",
+      "device_name": "nuc",
+      "device_type": "computer",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: f8:9e:94:ab:5b:2b)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "FC:3C:D7:CB:1E:D2",
+      "device_name": "Eightree_Smartplug_1",
+      "device_type": "smart_plug",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: fc:3c:d7:cb:1e:d2)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "FC:67:1F:A9:A7:8D",
+      "device_name": "weekett_kettle",
+      "device_type": "kitchen_appliances",
+      "vendor": "Unknown",
+      "notes": "Imported from devices.txt (was: fc:67:1f:a9:a7:8d)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    },
+    {
+      "mac_address": "FC:9C:98:11:71:A8",
+      "device_name": "arlo_camera_pro4",
+      "device_type": "smart_camera",
+      "vendor": "Amazon Technologies",
+      "notes": "Imported from devices.txt (was: fc:9c:98:11:71:a8)",
+      "is_protected": false,
+      "created_at": "2025-07-14T19:56:56.691106+00:00"
+    }
+  ]
+}

@@ -1,0 +1,1722 @@
+{
+  "table_name": "vendor_patterns",
+  "export_date": "2025-07-20T15:40:14.350738",
+  "total_records": 245,
+  "data": [
+    {
+      "oui_pattern": "00:05:69",
+      "vendor_name": "VMware, Inc.",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:09:5B",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:0C:29",
+      "vendor_name": "VMware, Inc.",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:0D:B9",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:0F:B5",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:11:32",
+      "vendor_name": "SYNOLOGY INCORPORATED",
+      "device_category": "storage",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:14:6C",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:16:CB",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:17:88",
+      "vendor_name": "Philips",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:17:F2",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:18:4D",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:19:E3",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:1A:22",
+      "vendor_name": "eQ-3",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:1B:2F",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:1B:63",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:1C:14",
+      "vendor_name": "VMware, Inc.",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:1E:2A",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:1E:C2",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:1a:22",
+      "vendor_name": "eQ-3 AG",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:21:E9",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:22:3F",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:23:12",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:24:B2",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:24:E4",
+      "vendor_name": "Netgear",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:25:4B",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:26:08",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:26:F2",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:50:56",
+      "vendor_name": "VMware, Inc.",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:50:C2",
+      "vendor_name": "IEEE Registration Authority",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:98:76",
+      "vendor_name": "Google LLC",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "00:B5:6D",
+      "vendor_name": "Edimax",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "01:eb:c5",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "04:0C:CE",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "08:00:27",
+      "vendor_name": "PCS Systemtechnik GmbH",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "08:86:3B",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "08:BD:43",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "09:11:e3",
+      "vendor_name": "Apple Inc",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "0a:51:5b",
+      "vendor_name": "Apple Inc",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "0d:33:92",
+      "vendor_name": "Netgear Inc",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "10:0D:7F",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "16:0a:40",
+      "vendor_name": "Amazon Technologies",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "17:06:a2",
+      "vendor_name": "Cisco Systems",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "17:0b:a9",
+      "vendor_name": "Ring LLC",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "18:03:73",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "1C:5F:2B",
+      "vendor_name": "D-Link",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "1b:a4:a5",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "1c:5f:2b",
+      "vendor_name": "D-Link Corporation",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "1d:d2:13",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "1e:9d:c0",
+      "vendor_name": "Apple Inc",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "20:4E:7F",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "20:F4:78",
+      "vendor_name": "Proware Technologies Co Ltd.",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "20:f8:5e",
+      "vendor_name": "Belkin International Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "24:0A:C4",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "28:B2:BD",
+      "vendor_name": "Netgear",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "28:C6:8E",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "28:CF:E9",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "2C:30:33",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "2a:5c:3d",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "2d:2e:d2",
+      "vendor_name": "Netgear Inc",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "2e:4c:5e",
+      "vendor_name": "Xiaomi Corporation",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "30:30:df",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "30:46:9A",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "30:81:50",
+      "vendor_name": "Amazon Technologies",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "30:AE:A4",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "30:DE:4B",
+      "vendor_name": "TP-Link",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-07-06T14:52:43.421968+00:00"
+    },
+    {
+      "oui_pattern": "31:75:e7",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "31:ac:eb",
+      "vendor_name": "Ring LLC",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "34:E2:FD",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "38:0B:40",
+      "vendor_name": "Netgear",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "3C:07:54",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "3C:49:37",
+      "vendor_name": "Edimax",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "3C:61:05",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "3a:cd:1f",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "40:22:D8",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "40:A6:D9",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "42:7d:b6",
+      "vendor_name": "Netgear Inc",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "44:FB:42",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "48:3F:DA",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "48:A1:95",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "4C:60:DE",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "4C:B1:99",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "4a:c3:91",
+      "vendor_name": "Ring LLC",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "50:02:91",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "50:C7:BF",
+      "vendor_name": "TP-Link",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "50:EA:D6",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "50:c7:bf",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "52:54:00",
+      "vendor_name": "QEMU Virtual NIC",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "53:49:e5",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "54:72:2F",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "58:55:CA",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "58:BF:25",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "58:EF:68",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "smart_device",
+      "is_protected": false,
+      "created_at": "2025-07-01T21:33:48.424083+00:00"
+    },
+    {
+      "oui_pattern": "58:bc:62",
+      "vendor_name": "Cisco Systems",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "5C:CF:7F",
+      "vendor_name": "TP-Link",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "5C:F5:DA",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "5c:02:fe",
+      "vendor_name": "Ring LLC",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "5e:0f:ca",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "60:01:94",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "60:F4:45",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "61:9f:70",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "63:08:00",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "64:20:9F",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "64:B0:A6",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "68:C6:3A",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "68:DB:F5",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "6C:19:8F",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "6C:40:08",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "6b:b2:db",
+      "vendor_name": "Ring LLC",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "6d:be:18",
+      "vendor_name": "Xiaomi Corporation",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "70:03:9F",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "70:11:24",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "73:cc:42",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "74:44:01",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "74:DA:38",
+      "vendor_name": "Edimax",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "74:E1:B6",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "74:da:38",
+      "vendor_name": "Edimax Technology Co. Ltd.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "75:b2:71",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "77:4d:5c",
+      "vendor_name": "Philips Electronics",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "78:21:84",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "78:67:D0",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "78:8A:20",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "7C:6D:62",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "7C:D1:C3",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "80:25:5e",
+      "vendor_name": "Google LLC",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "80:7D:3A",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "80:92:9F",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "82:1c:b7",
+      "vendor_name": "Ring LLC",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "84:0D:8E",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "84:18:26",
+      "vendor_name": "Netgear",
+      "device_category": "computer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "84:1B:5E",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "84:89:d3",
+      "vendor_name": "Xiaomi Corporation",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "84:B1:53",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "84:CC:A8",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "86:c9:4f",
+      "vendor_name": "Philips Electronics",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "87:78:36",
+      "vendor_name": "Netgear Inc",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "88:54:1F",
+      "vendor_name": "Unknown Vendor 88541F",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-07-06T15:00:38.567295+00:00"
+    },
+    {
+      "oui_pattern": "88:E9:FE",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "8C:58:77",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "8C:AA:B5",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "8b:23:c5",
+      "vendor_name": "Google LLC",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "8d:ba:ae",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "90:72:40",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "90:9C:02",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "90:de:c1",
+      "vendor_name": "Google LLC",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "94:10:3E",
+      "vendor_name": "D-Link",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "94:4A:0C",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "94:B9:7E",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "94:E9:79",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "98:01:A7",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "98:B8:E3",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "9C:1C:12",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "9C:9C:1F",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "9C:FC:01",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "9b:42:d9",
+      "vendor_name": "Ring LLC",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "9e:7f:a4",
+      "vendor_name": "Netgear Inc",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "9f:40:87",
+      "vendor_name": "Google LLC",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "9f:a9:81",
+      "vendor_name": "Apple Inc",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A0:04:60",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A0:20:A6",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A0:40:A0",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A0:99:9B",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A4:2B:8C",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A4:C3:61",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A4:CF:12",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A4:D1:8C",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A8:03:2A",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A8:60:B6",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "A8:96:75",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "AC:15:A2",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "smart_device",
+      "is_protected": false,
+      "created_at": "2025-06-26T20:31:08.660184+00:00"
+    },
+    {
+      "oui_pattern": "AC:3C:0B",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "AC:67:B2",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "AC:DE:48",
+      "vendor_name": "Private",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "B0:19:C6",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "B0:7F:B9",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "B0:C5:54",
+      "vendor_name": "D-Link",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "B4:2E:99",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "B4:E6:2D",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "B4:F0:AB",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "B8:53:AC",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "B8:E8:56",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "BB:CC:DD",
+      "vendor_name": "Updated Test Vendor",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T21:27:14.472113+00:00"
+    },
+    {
+      "oui_pattern": "BC:52:B7",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "BC:D7:D4",
+      "vendor_name": "Unknown Vendor BCD7D4",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-07-06T15:00:38.567295+00:00"
+    },
+    {
+      "oui_pattern": "BC:DD:C2",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "BC:F5:AC",
+      "vendor_name": "D-Link",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "C0:3F:0E",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "C0:9A:D0",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "C4:04:15",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "C4:5B:BE",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "C4:B3:01",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "C8:BC:C8",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "CC:25:EF",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "CC:40:D0",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "CC:50:E3",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "D0:03:4B",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "D4:8A:FC",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "D4:90:9C",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "D8:9E:3F",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "D8:A2:5E",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "D8:EB:97",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "DC:37:18",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "DC:4F:22",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "DC:56:E7",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "E0:46:9A",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "E0:91:F5",
+      "vendor_name": "Netgear",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "E0:B9:BA",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "E0:E2:E6",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "E0:F8:47",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "E4:25:E7",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "E4:65:B8",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "E8:40:40",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "E8:DB:84",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "EC:35:86",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "EC:62:60",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "EC:8A:4C",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "F0:08:D1",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "F0:18:98",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "F0:B0:E7",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "F0:D1:A9",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "F0:DC:E2",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "F4:12:FA",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "F4:37:B7",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "F8:16:54",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "F8:F0:05",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "FC:25:3F",
+      "vendor_name": "Apple, Inc.",
+      "device_category": "consumer",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "FC:F5:C4",
+      "vendor_name": "Espressif Inc.",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "aa:f8:a1",
+      "vendor_name": "TP-Link Technologies",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "b1:4e:aa",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "b7:9a:3d",
+      "vendor_name": "Netgear Inc",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "bd:1f:22",
+      "vendor_name": "Google LLC",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "bd:64:95",
+      "vendor_name": "Google LLC",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "c1:0c:9f",
+      "vendor_name": "Cisco Systems",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "c3:73:39",
+      "vendor_name": "Xiaomi Corporation",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "c6:13:f1",
+      "vendor_name": "Samsung Electronics",
+      "device_category": "network",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "c7:b6:67",
+      "vendor_name": "Apple Inc",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "c8:d0:7b",
+      "vendor_name": "Netgear Inc",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "cb:d6:b5",
+      "vendor_name": "Xiaomi Corporation",
+      "device_category": "camera",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "e4:fb:fc",
+      "vendor_name": "Philips Electronics",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "e7:db:28",
+      "vendor_name": "Ring LLC",
+      "device_category": "iot",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "e8:f8:32",
+      "vendor_name": "Amazon Technologies",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "e9:c4:8a",
+      "vendor_name": "Xiaomi Corporation",
+      "device_category": "camera",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "f3:fd:89",
+      "vendor_name": "Amazon Technologies",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "f6:d5:9c",
+      "vendor_name": "Apple Inc",
+      "device_category": "smart_device",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "f7:df:c6",
+      "vendor_name": "Apple Inc",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    },
+    {
+      "oui_pattern": "fa:2c:a7",
+      "vendor_name": "Amazon Technologies",
+      "device_category": "unknown",
+      "is_protected": true,
+      "created_at": "2025-06-25T19:00:14.260136+00:00"
+    }
+  ]
+}

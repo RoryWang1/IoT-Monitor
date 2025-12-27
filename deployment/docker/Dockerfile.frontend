@@ -1,0 +1,31 @@
+# Frontend Dockerfile
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files and install dependencies
+COPY frontend/package*.json ./
+RUN npm ci --only=production && npm cache clean --force
+
+# Copy application code
+COPY frontend/ .
+COPY config/ ./config/
+
+# Set build-time environment variables, support dynamic configuration
+ARG NEXT_PUBLIC_API_BASE_URL=http://backend:8001
+ARG NEXT_PUBLIC_WS_BASE_URL=ws://localhost:8001
+ARG NODE_ENV=production
+
+ENV NEXT_PUBLIC_API_BASE_URL=$NEXT_PUBLIC_API_BASE_URL
+ENV NEXT_PUBLIC_WS_BASE_URL=$NEXT_PUBLIC_WS_BASE_URL
+ENV NODE_ENV=$NODE_ENV
+
+# Build application (environment variables are embedded in static files at this time)
+RUN npm run build
+
+# Expose port
+EXPOSE 3001
+
+# Start command
+CMD ["npm", "start"] 

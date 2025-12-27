@@ -1,0 +1,307 @@
+/* Desktop Responsive Design System - Optimized for various desktop screen sizes */
+
+:root {
+  /* Base spacing system - using rem units for desktop scaling */
+  --spacing-xs: 0.25rem;    /* 4px */
+  --spacing-sm: 0.5rem;     /* 8px */
+  --spacing-md: 0.75rem;    /* 12px */
+  --spacing-lg: 1rem;       /* 16px */
+  --spacing-xl: 1.25rem;    /* 20px */
+  --spacing-2xl: 1.5rem;    /* 24px */
+  --spacing-3xl: 2rem;      /* 32px */
+  --spacing-4xl: 2.5rem;    /* 40px */
+  --spacing-5xl: 3rem;      /* 48px */
+
+  /* Font size system - optimized for desktop readability */
+  --text-xs: 0.75rem;       /* 12px */
+  --text-sm: 0.875rem;      /* 14px */
+  --text-base: 1rem;        /* 16px */
+  --text-lg: 1.125rem;      /* 18px */
+  --text-xl: 1.25rem;       /* 20px */
+  --text-2xl: 1.5rem;       /* 24px */
+  --text-3xl: 1.875rem;     /* 30px */
+  --text-4xl: 2.25rem;      /* 36px */
+
+  /* Container widths - desktop screen adaptations */
+  --container-sm: min(95vw, 768px);
+  --container-md: min(95vw, 1024px);
+  --container-lg: min(95vw, 1280px);
+  --container-xl: min(95vw, 1536px);
+  --container-2xl: min(95vw, 1920px);
+
+  /* Grid gaps - desktop optimized */
+  --grid-gap-sm: clamp(0.75rem, 1.5vw, 1.25rem);
+  --grid-gap-md: clamp(1rem, 2vw, 1.5rem);
+  --grid-gap-lg: clamp(1.5rem, 2.5vw, 2rem);
+
+  /* Card padding - desktop focused */
+  --card-padding-sm: clamp(1rem, 2vw, 1.25rem);
+  --card-padding-md: clamp(1.25rem, 2.5vw, 1.75rem);
+  --card-padding-lg: clamp(1.5rem, 3vw, 2.25rem);
+
+  /* Border radius */
+  --radius-sm: 0.375rem;    /* 6px */
+  --radius-md: 0.5rem;      /* 8px */
+  --radius-lg: 0.75rem;     /* 12px */
+  --radius-xl: 1rem;        /* 16px */
+
+  /* Shadows - desktop depth */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 16px 32px rgba(0, 0, 0, 0.15);
+
+  /* Color system - desktop dashboard theme */
+  --color-bg-primary: #111827;
+  --color-bg-secondary: #1F2937;
+  --color-bg-tertiary: #374151;
+  --color-border-primary: #374151;
+  --color-border-secondary: #4B5563;
+  --color-text-primary: #F9FAFB;
+  --color-text-secondary: #E5E7EB;
+  --color-text-tertiary: #9CA3AF;
+  --color-accent-blue: #3B82F6;
+  --color-accent-green: #10B981;
+  --color-accent-yellow: #F59E0B;
+  --color-accent-purple: #8B5CF6;
+}
+
+/* Desktop screen size adaptations */
+@media (max-width: 1366px) {
+  :root {
+    --spacing-3xl: 1.75rem;
+    --spacing-4xl: 2.25rem;
+    --text-3xl: 1.75rem;
+    --text-4xl: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --spacing-2xl: 1.25rem;
+    --spacing-3xl: 1.5rem;
+    --spacing-4xl: 2rem;
+    --text-2xl: 1.375rem;
+    --text-3xl: 1.625rem;
+    --text-4xl: 1.875rem;
+  }
+}
+
+/* Desktop responsive grid system */
+.responsive-grid {
+  display: grid;
+  gap: var(--grid-gap-md);
+  width: 100%;
+}
+
+.responsive-grid-auto {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
+}
+
+.responsive-grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+}
+
+.responsive-grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+}
+
+.responsive-grid-4 {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+}
+
+.responsive-flex {
+  display: flex;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.responsive-container {
+  width: 100%;
+  max-width: var(--container-xl);
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+/* Desktop optimized text scaling */
+.text-responsive-sm {
+  font-size: clamp(var(--text-xs), 1.5vw, var(--text-sm));
+}
+
+.text-responsive-base {
+  font-size: clamp(var(--text-sm), 2vw, var(--text-base));
+}
+
+.text-responsive-lg {
+  font-size: clamp(var(--text-base), 2.5vw, var(--text-lg));
+}
+
+.text-responsive-xl {
+  font-size: clamp(var(--text-lg), 3vw, var(--text-xl));
+}
+
+.text-responsive-2xl {
+  font-size: clamp(var(--text-xl), 3.5vw, var(--text-2xl));
+}
+
+.text-responsive-3xl {
+  font-size: clamp(var(--text-2xl), 4vw, var(--text-3xl));
+}
+
+/* Desktop spacing system */
+.spacing-responsive-sm {
+  padding: var(--card-padding-sm);
+}
+
+.spacing-responsive-md {
+  padding: var(--card-padding-md);
+}
+
+.spacing-responsive-lg {
+  padding: var(--card-padding-lg);
+}
+
+.margin-responsive-sm {
+  margin: var(--spacing-sm);
+}
+
+.margin-responsive-md {
+  margin: var(--spacing-lg);
+}
+
+.margin-responsive-lg {
+  margin: var(--spacing-2xl);
+}
+
+/* Desktop dashboard cards */
+.card-responsive {
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--card-padding-md);
+  box-shadow: var(--shadow-md);
+  transition: all 0.2s ease;
+}
+
+.card-responsive:hover {
+  border-color: var(--color-accent-blue);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Desktop table optimization */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border-primary);
+}
+
+.table-responsive table {
+  width: 100%;
+  min-width: 800px;
+  border-collapse: collapse;
+}
+
+.table-responsive th,
+.table-responsive td {
+  padding: var(--spacing-md) var(--spacing-lg);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border-primary);
+}
+
+.table-responsive th {
+  background-color: var(--color-bg-tertiary);
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Desktop modal system */
+.modal-responsive {
+  width: min(90vw, 800px);
+  max-height: 85vh;
+  overflow-y: auto;
+  margin: var(--spacing-2xl);
+  border-radius: var(--radius-xl);
+}
+
+/* Desktop icon sizing */
+.icon-responsive-sm {
+  width: clamp(14px, 1.5vw, 18px);
+  height: clamp(14px, 1.5vw, 18px);
+}
+
+.icon-responsive-md {
+  width: clamp(18px, 2vw, 22px);
+  height: clamp(18px, 2vw, 22px);
+}
+
+.icon-responsive-lg {
+  width: clamp(22px, 2.5vw, 26px);
+  height: clamp(22px, 2.5vw, 26px);
+}
+
+/* Desktop button system */
+.button-responsive {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: var(--text-sm);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 1px solid var(--color-border-secondary);
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
+
+.button-responsive:hover {
+  background-color: var(--color-bg-tertiary);
+  border-color: var(--color-accent-blue);
+  transform: translateY(-1px);
+}
+
+.button-responsive:active {
+  transform: translateY(0);
+}
+
+/* Desktop utility classes */
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.flex-1 { flex: 1; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.overflow-hidden { overflow: hidden; }
+.overflow-auto { overflow: auto; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+
+/* Desktop keyboard navigation */
+.focusable:focus {
+  outline: 2px solid var(--color-accent-blue);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Desktop scrollbar styling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--color-bg-tertiary);
+  border-radius: var(--radius-md);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-border-secondary);
+  border-radius: var(--radius-md);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-tertiary);
+} 

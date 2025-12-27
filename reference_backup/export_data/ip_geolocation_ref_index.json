@@ -1,0 +1,20 @@
+{
+  "table_name": "ip_geolocation_ref",
+  "export_date": "2025-07-20T15:40:19.356600",
+  "total_records": 502931,
+  "total_chunks": 11,
+  "chunk_size": 50000,
+  "files": [
+    "ip_geolocation_ref_part_001.json",
+    "ip_geolocation_ref_part_002.json",
+    "ip_geolocation_ref_part_003.json",
+    "ip_geolocation_ref_part_004.json",
+    "ip_geolocation_ref_part_005.json",
+    "ip_geolocation_ref_part_006.json",
+    "ip_geolocation_ref_part_007.json",
+    "ip_geolocation_ref_part_008.json",
+    "ip_geolocation_ref_part_009.json",
+    "ip_geolocation_ref_part_010.json",
+    "ip_geolocation_ref_part_011.json"
+  ]
+}

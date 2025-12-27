@@ -1,0 +1,87 @@
+services:
+  # PostgreSQL database
+  database:
+    image: postgres:15-alpine
+    container_name: iot-monitor-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: iot_monitor
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ../../database/schema:/docker-entrypoint-initdb.d:ro
+    networks:
+      - iot-network
+
+  # Backend API service
+  backend:
+    build:
+      context: ../../
+      dockerfile: deployment/docker/Dockerfile.backend
+    container_name: iot-monitor-backend
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    environment:
+      # Unified database configuration: Docker environment uses service name and internal port
+      - DATABASE_HOST=database
+      - DATABASE_PORT=5432
+      - DATABASE_NAME=iot_monitor
+      - DATABASE_USER=postgres
+      - DATABASE_PASSWORD=postgres
+      # Match the expected environment variable name in the code
+      - DB_HOST=database
+      - DB_PORT=5432
+      - DB_NAME=iot_monitor
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+      # Timezone configuration
+      - TZ=Europe/London
+    volumes:
+      - ../../log:/app/log
+      - ../../pcap_input:/app/pcap_input
+      - ../../reference_backup:/app/reference_backup
+      - ../../config:/app/config
+      - ../../utils:/app/utils
+      - ../../database:/app/database
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    depends_on:
+      - database
+    networks:
+      - iot-network
+
+  # Frontend service
+  frontend:
+    build:
+      context: ../../
+      dockerfile: deployment/docker/Dockerfile.frontend
+      args:
+        - NEXT_PUBLIC_API_BASE_URL=http://backend:8001
+        - NEXT_PUBLIC_WS_BASE_URL=${WS_BASE_URL:-ws://host.docker.internal:8001}
+        - NODE_ENV=production
+    container_name: iot-monitor-frontend
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_BASE_URL=http://backend:8001
+      - NEXT_PUBLIC_WS_BASE_URL=${WS_BASE_URL:-ws://host.docker.internal:8001}
+    volumes:
+      - ../../config:/app/config:ro
+    depends_on:
+      - backend
+    networks:
+      - iot-network
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  iot-network:
+    driver: bridge 

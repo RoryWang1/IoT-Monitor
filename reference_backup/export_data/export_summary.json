@@ -1,0 +1,9 @@
+{
+  "export_date": "2025-07-20T15:40:19.356991",
+  "tables_exported": {
+    "vendor_patterns": 245,
+    "known_devices": 153,
+    "ip_geolocation_ref": 502931
+  },
+  "total_records": 503329
+}

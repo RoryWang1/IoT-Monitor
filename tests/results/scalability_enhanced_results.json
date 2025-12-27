@@ -1,0 +1,162 @@
+[
+  [
+    {
+      "num_agents": 100,
+      "avg_rps": 100.0,
+      "avg_latency_ms": 2.8988939921061196,
+      "p95_latency_ms": 7.790637016296387,
+      "p99_latency_ms": 19.4295597076416,
+      "avg_cpu_percent": 2.388333333333333,
+      "avg_memory_mb": 52.10755208333333,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 300,
+      "avg_rps": 300.0,
+      "avg_latency_ms": 3.73984702428182,
+      "p95_latency_ms": 9.800863265991211,
+      "p99_latency_ms": 49.75133657455444,
+      "avg_cpu_percent": 5.233333333333333,
+      "avg_memory_mb": 52.614322916666666,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 500,
+      "avg_rps": 500.0,
+      "avg_latency_ms": 4.427352619171143,
+      "p95_latency_ms": 16.757583618164062,
+      "p99_latency_ms": 44.363698959350586,
+      "avg_cpu_percent": 7.656666666666666,
+      "avg_memory_mb": 52.93723958333333,
+      "error_rate": 0.0
+    }
+  ],
+  [
+    {
+      "num_agents": 100,
+      "avg_rps": 100.0,
+      "avg_latency_ms": 2.98664124806722,
+      "p95_latency_ms": 6.287193298339844,
+      "p99_latency_ms": 23.126754760742188,
+      "avg_cpu_percent": 2.631666666666667,
+      "avg_memory_mb": 53.096614583333334,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 300,
+      "avg_rps": 300.0,
+      "avg_latency_ms": 5.730043729146321,
+      "p95_latency_ms": 12.452542781829834,
+      "p99_latency_ms": 43.84917736053467,
+      "avg_cpu_percent": 5.555,
+      "avg_memory_mb": 53.32473958333333,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 500,
+      "avg_rps": 500.0,
+      "avg_latency_ms": 6.514075978597005,
+      "p95_latency_ms": 12.825775146484375,
+      "p99_latency_ms": 59.84835386276245,
+      "avg_cpu_percent": 7.973333333333334,
+      "avg_memory_mb": 53.56015625,
+      "error_rate": 0.0
+    }
+  ],
+  [
+    {
+      "num_agents": 100,
+      "avg_rps": 100.0,
+      "avg_latency_ms": 2.8017422358194985,
+      "p95_latency_ms": 5.2394866943359375,
+      "p99_latency_ms": 29.630632400512695,
+      "avg_cpu_percent": 2.3366666666666664,
+      "avg_memory_mb": 53.616145833333334,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 300,
+      "avg_rps": 300.0,
+      "avg_latency_ms": 3.4426880412631564,
+      "p95_latency_ms": 10.039770603179932,
+      "p99_latency_ms": 43.217079639434814,
+      "avg_cpu_percent": 4.958333333333333,
+      "avg_memory_mb": 53.688541666666666,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 500,
+      "avg_rps": 500.0,
+      "avg_latency_ms": 4.769893725713094,
+      "p95_latency_ms": 12.033915519714355,
+      "p99_latency_ms": 57.784667015075684,
+      "avg_cpu_percent": 7.418333333333333,
+      "avg_memory_mb": 53.69869791666667,
+      "error_rate": 0.0
+    }
+  ],
+  [
+    {
+      "num_agents": 100,
+      "avg_rps": 100.0,
+      "avg_latency_ms": 2.896503766377767,
+      "p95_latency_ms": 6.086397171020508,
+      "p99_latency_ms": 28.297874927520752,
+      "avg_cpu_percent": 2.4383333333333335,
+      "avg_memory_mb": 53.734375,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 300,
+      "avg_rps": 300.0,
+      "avg_latency_ms": 5.910443120532566,
+      "p95_latency_ms": 14.265692234039307,
+      "p99_latency_ms": 66.20712757110596,
+      "avg_cpu_percent": 5.548333333333334,
+      "avg_memory_mb": 95.53802083333333,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 500,
+      "avg_rps": 500.0,
+      "avg_latency_ms": 4.246008110046387,
+      "p95_latency_ms": 9.096860885620117,
+      "p99_latency_ms": 61.43695116043091,
+      "avg_cpu_percent": 7.483333333333333,
+      "avg_memory_mb": 96.29453125,
+      "error_rate": 0.0
+    }
+  ],
+  [
+    {
+      "num_agents": 100,
+      "avg_rps": 100.0,
+      "avg_latency_ms": 2.837815602620443,
+      "p95_latency_ms": 5.409634113311768,
+      "p99_latency_ms": 29.580323696136475,
+      "avg_cpu_percent": 2.2683333333333335,
+      "avg_memory_mb": 96.33958333333334,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 300,
+      "avg_rps": 300.0,
+      "avg_latency_ms": 3.431349039077759,
+      "p95_latency_ms": 6.315898895263672,
+      "p99_latency_ms": 43.04840326309204,
+      "avg_cpu_percent": 5.276666666666666,
+      "avg_memory_mb": 96.38828125,
+      "error_rate": 0.0
+    },
+    {
+      "num_agents": 500,
+      "avg_rps": 500.0,
+      "avg_latency_ms": 4.0692524909973145,
+      "p95_latency_ms": 11.329710483551025,
+      "p99_latency_ms": 58.32312822341919,
+      "avg_cpu_percent": 7.385,
+      "avg_memory_mb": 96.390625,
+      "error_rate": 0.0
+    }
+  ]
+]
