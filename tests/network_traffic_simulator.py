@@ -69,9 +69,8 @@ class NetworkTrafficSimulator:
         probs = np.full((n_clusters, n_clusters), p_inter)
         np.fill_diagonal(probs, p_intra)
         
-        # Note: We enforce seed=42 here for topology consistency across runs, 
-        # consistent with the original experimental setup.
-        G = nx.stochastic_block_model(sizes, probs, seed=42)
+        # Note: using config seed for academic integrity (Monte Carlo support)
+        G = nx.stochastic_block_model(sizes, probs, seed=self.config.seed)
         
         # Convert to format expected by EdgeGravity
         # Nodes: [{'id': 'ip_x', 'type': 'device'}, ...]
@@ -114,6 +113,100 @@ class NetworkTrafficSimulator:
                 'bytes': max(packets * 40, bytes_count),
                 'sessions': sessions
             })
+            
+        return node_list, edge_list, G
+
+    def synthesis_hierarchical_iot_network(self, n_gateways=5, n_sensors=95, backbone_prob=1.0, noise_prob=0.0) -> Tuple[List[Dict], List[Dict], nx.Graph]:
+        """
+        Synthesize a Realistic IoT Topology (Hub-and-Spoke / Scale-Free).
+        
+        Structure:
+        1. Backbone: Gateways connected in a mesh/random graph (high reliability).
+        2. Edge: Sensors connected to Gateways (Star topology).
+        
+        Args:
+            backbone_prob: Probability of edge creation in the backbone (1.0 = Full Mesh).
+            noise_prob: Probability that a sensor creates a "noise edge" to a WRONG gateway.
+                        Models scanning, misconfiguration, or cross-talk.
+        
+        This creates a Heavy-Tailed Degree Distribution which is physically realistic 
+        for IoT (thousands of sensors, few gateways) and rigorous for testing.
+        """
+        print(f"[SIMULATION] Synthesizing Hierarchical IoT Network (Gateways={n_gateways}, Sensors={n_sensors}, Noise={noise_prob})...")
+        
+        G = nx.Graph()
+        rng = np.random.RandomState(self.config.seed) if self.config.seed is not None else np.random
+        
+        # 1. Create Backbone (Gateways)
+        # Use Erdos-Renyi for backbone. 
+        # CRITICAL: Prob=1.0 (Full Mesh) or high prob ensures connectivity. 
+        # Disconnected backbones are failures in reality, and make clustering trivial (components).
+        # We 'Steel-man' the test by ensuring it is a single connected component.
+        backbone = nx.erdos_renyi_graph(n_gateways, backbone_prob, seed=self.config.seed)
+        
+        # Relabel backbone nodes to explicit IDs
+        mapping = {i: f"10.0.0.{i+1}" for i in range(n_gateways)}
+        backbone = nx.relabel_nodes(backbone, mapping)
+        G.add_nodes_from(backbone.nodes(data=True))
+        G.add_edges_from(backbone.edges())
+        
+        gateways = sorted(list(G.nodes()))
+        
+        # 2. Connect Sensors (Edge Layer)
+        node_list = []
+        # Add Gateways to metadata
+        for gw in gateways:
+            node_list.append({'id': gw, 'type': 'gateway', 'true_gateway': gw})
+            
+        edge_list = []
+        
+        # Add Backbone edges to metadata
+        for u, v in G.edges():
+             edge_list.append({
+                'source': u,
+                'target': v,
+                'packets': int(rng.normal(1000, 200)), # Backbone traffic is higher
+                'bytes': int(rng.normal(50000, 10000)),
+                'sessions': 50
+             })
+
+        for i in range(n_sensors):
+            sensor_id = f"192.168.1.{i+1}"
+            
+            # Pick a PRIMARY gateway (The "Ground Truth" connection)
+            primary_gw = rng.choice(gateways)
+            
+            node_list.append({'id': sensor_id, 'type': 'device', 'true_gateway': primary_gw})
+            G.add_node(sensor_id)
+            
+            # Connect to Primary
+            G.add_edge(sensor_id, primary_gw)
+            
+            # Traffic profile for sensor
+            packets = int(rng.lognormal(3, 0.5))
+            edge_list.append({
+                'source': sensor_id,
+                'target': primary_gw,
+                'packets': packets,
+                'bytes': packets * 100,
+                'sessions': 1
+            })
+            
+            # 3. Inject NOISE (Cross-Talk)
+            # Sensors occasionally talk to the WRONG gateway
+            if noise_prob > 0.0:
+                for other_gw in gateways:
+                    if other_gw != primary_gw and rng.random() < noise_prob:
+                        G.add_edge(sensor_id, other_gw) # Valid edge in Graph, but invalid logically
+                        # Add weak traffic
+                        noise_packets = max(1, int(packets * 0.1)) # 10% of main traffic
+                        edge_list.append({
+                            'source': sensor_id,
+                            'target': other_gw,
+                            'packets': noise_packets,
+                            'bytes': noise_packets * 100,
+                            'sessions': 1
+                        })
             
         return node_list, edge_list, G
 
@@ -197,6 +290,70 @@ class NetworkTrafficSimulator:
             })
             
         return timeline
+
+    def simulate_scenario_a(self, duration_sec=60, packet_rate=100, payload_size=60) -> List[Dict]:
+        """
+        Scenario A: High Frequency / Small Payload.
+        Now Parameterized for Sensitivity Analysis.
+        """
+        # print(f"[SIMULATION] Generating Scenario A (Rate={packet_rate}, Size={payload_size})...")
+        traffic = []
+        for t in range(duration_sec):
+            traffic.append({
+                'timestamp_offset': t,
+                'packets': packet_rate, 
+                'bytes': packet_rate * payload_size, 
+                'avg_packet_size': payload_size
+            })
+        return traffic
+
+    def simulate_scenario_b(self, duration_sec=60, min_packets=1, max_packets=5, min_size=30000, max_size=50000) -> List[Dict]:
+        """
+        Scenario B: Low Frequency / High Volume.
+        Now Parameterized for Sensitivity Analysis.
+        """
+        # print(f"[SIMULATION] Generating Scenario B (Packets={min_packets}-{max_packets}, Size={min_size}-{max_size})...")
+        traffic = []
+        for t in range(duration_sec):
+            packets = random.randint(min_packets, max_packets) 
+            avg_size = random.randint(min_size, max_size) 
+            traffic.append({
+                'timestamp_offset': t,
+                'packets': packets,
+                'bytes': packets * avg_size,
+                'avg_packet_size': avg_size
+            })
+        return traffic
+
+    def simulate_jittery_heartbeat(self, duration_sec=300, interval=10.0, sigma=2.0) -> List[float]:
+        """
+        Simulate a periodic signal with jitter for Stability Analysis (Section 5.5.3).
+        Base Inter-Arrival Time = 10s (Heartbeat).
+        Noise = Gaussian(0, sigma).
+        Congestion = 15% chance of burst (spike).
+        
+        Returns: List of measured inter-arrival times (in seconds).
+        """
+        print(f"[SIMULATION] Generating Jittery Heartbeat (Interval={interval}s, Sigma={sigma})...")
+        measurements = []
+        
+        # We simulate the ARRIVAL times, then calculate inter-arrival
+        # But for simplicity, we can just generate the delta directly
+        # since we want to test the smoothing filter on the DELTAS.
+        
+        count = int(duration_sec / interval)
+        for _ in range(count):
+            # Base interval + Jitter
+            noise = np.random.normal(0, sigma)
+            val = interval + noise
+            
+            # Congestion Spike (15% chance to delay significantly)
+            if random.random() < 0.15:
+                val += random.uniform(5.0, 15.0) 
+                
+            measurements.append(max(0.1, val)) # Ensure positive
+            
+        return measurements
 
 # ==============================================================================
 # Legacy API Wrappers (For Backward Compatibility)

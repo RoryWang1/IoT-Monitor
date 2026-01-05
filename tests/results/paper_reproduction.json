@@ -1,0 +1,19 @@
+{
+  "sensitivity_scenario_a": {
+    "linear_score": 0.2800000000000001,
+    "log_score": 0.8000000000000002
+  },
+  "sensitivity_scenario_b": {
+    "linear_score": 0.41616625,
+    "log_score": 0.9531050814420817
+  },
+  "topology_convergence": {
+    "edge_gravity_iter_to_converge": 12,
+    "force_directed_iter_to_converge": 45
+  },
+  "timeline_stability": {
+    "sma_error": 1.852785578131198,
+    "ewma_error": 1.6134316917116438,
+    "improvement_pct": 12.918596152986957
+  }
+}
